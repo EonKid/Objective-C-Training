@@ -5,7 +5,7 @@
 //  Created by Dhruv Narayan Singh  on 05/09/15.
 //  Copyright (c) 2015 codeBrew. All rights reserved.
 //A Rectangle class with height and width as parameter and with function area and perimeter 
-which return Area and Perimeter of a Rectangle. 
+//which return Area and Perimeter of a Rectangle. 
 #import<Foundation/Foundation.h>
 
 @interface Rectangle : NSObject{
