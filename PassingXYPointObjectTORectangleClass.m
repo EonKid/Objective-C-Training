@@ -6,7 +6,7 @@
 //  Copyright (c) 2015 codeBrew. All rights reserved.
 
 // This program explain the concept of passing object of the XYPoint class to the another class Rectangle 
-using pointerToObject object variable
+//using pointerToObject object variable
 #import<Foundation/Foundation.h>
 @class  XYPoint;
 //--------RectangleClass-------------
