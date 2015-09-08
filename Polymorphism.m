@@ -6,6 +6,7 @@
 //  Copyright (c) 2015 codeBrew. All rights reserved.
 
 //This program explain the concept Polymorphism
+//ERROR: Conflicting parameter types in implementation of setChars:: ': int vs char;
 #import<Foundation/Foundation.h>
 
 @interface  Numbers : NSObject{
