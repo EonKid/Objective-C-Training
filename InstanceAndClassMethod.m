@@ -4,7 +4,9 @@
 //
 //  Created by Dhruv Narayan Singh  on 08/09/15.
 //  Copyright (c) 2015 codeBrew. All rights reserved.
-//
+
+//This Program explains the concept of the Instance Method(- sign ) and Class Method
+// using the + - plus sign 
 #import<Foundation/Foundation.h>
 
 @interface MyClass : NSObject
