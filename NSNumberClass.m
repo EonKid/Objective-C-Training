@@ -16,7 +16,8 @@ int main(int argc , const char *argv[]){
         integerOne = [NSNumber numberWithInteger:45];
         integerTwo = [NSNumber numberWithFloat:454.78];
         
-        int x = [ integerOne integerValue];
+        int x = [ integerOne integerValue];//Implicite conversion loses integer precision 
+        //NSIneger (aka 'long ) to 'int'
         float y = [ integerTwo floatValue ];
         NSLog(@"Value of x = %i and y = %f\n",x,y);
          if ([integerOne isEqualToNumber:integerTwo] == YES) {
