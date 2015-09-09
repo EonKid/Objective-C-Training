@@ -12,7 +12,7 @@ int main(int argc , const char *argv[]){
 
     @autoreleasepool{
     
-            NSMutableArray *mutableObject = [ NSMutableArray arrayWithCapacity:N];
+            NSMutableArray *mutableObject = [ NSMutableArray array];
         
         for(int i=0; i<N; i+=2)
             [mutableObject addObject:[ NSNumber numberWithInteger:i]];
