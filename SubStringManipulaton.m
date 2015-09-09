@@ -22,6 +22,10 @@ int main(int argc , const char *argv[]){
         
         tester = [ stringObject substringWithRange:NSMakeRange(5, 10)];
         NSLog(@"The subsring \"%@\" starts from index 5 and ends to 10\n",tester);
+        
+        NSRange range = [ stringObject rangeOfString:@"starts"];
+        NSLog(@"The range of the string with location  is %ld and end index is %ld\n",range.location,range.length);
+        
         }
     return 0;
 
