@@ -15,6 +15,10 @@ int main(int argc , const char *argv[]){
         NSMutableDictionary *myDictionary =[NSMutableDictionary dictionary];
         [myDictionary setObject:nil//Raising Exception
                          forKey:@"apple"];
+                         /*If we pass integer to the setObject it will give an error
+                         [myDictionary setObject:nil
+                         forKey:@1];
+*/
         [myDictionary setObject:@"Yellow Color"
                          forKey:@"mango"];
         [myDictionary setObject:@"Dark Green Color"
