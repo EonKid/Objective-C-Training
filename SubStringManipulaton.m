@@ -20,6 +20,8 @@ int main(int argc , const char *argv[]){
         tester = [ stringObject substringFromIndex:9];
         NSLog(@"String from index 9 is \"%@\" \n",tester);
         
+        tester = [ stringObject substringWithRange:NSMakeRange(5, 10)];
+        NSLog(@"The subsring \"%@\" starts from index 5 and ends to 10\n",tester);
         }
     return 0;
 
