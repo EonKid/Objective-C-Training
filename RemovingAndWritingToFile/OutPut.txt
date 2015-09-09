@@ -1,0 +1,6 @@
+\f0\fs24 \cf0 Animal                 Color\
+Dog                      All Types\
+Mouse                 white and black\
+Cow                   white and mixed\
+Buffalo               Black\
+   }
