@@ -2,7 +2,7 @@
 //  main.m
 //  PracticeObjectiveC
 //
-//  Created by Dhruv Narayan Singh  on 08/09/15.
+//  Created by Dhruv Narayan Singh  on 09/09/15.
 //  Copyright (c) 2015 codeBrew. All rights reserved.
 //
 #import<Foundation/Foundation.h>
@@ -37,6 +37,20 @@ int main(int argc , const char *argv[]){
         
         [newString deleteCharactersInRange:NSMakeRange(4, 10)];
         NSLog(@"newString after the insertion \"%@\" \n",newString);
+        
+        
+        [newString replaceCharactersInRange:NSMakeRange(5, 10) withString:@"Mr Robot"];
+        NSLog(@"newString after the replecem \"%@\" \n",newString);
+       
+        [newString setString:@"I have reset a new string"];
+        NSLog(@"newString after the reseting \"%@\" \n",newString);
+
+        NSString *stringOne = @"new";
+        NSString *stringTwo = @"not";
+        NSRange newRange= [newString rangeOfString:stringOne];
+        [ newString replaceCharactersInRange:newRange withString:stringTwo ];
+        NSLog(@"newString after the insertion by other string \"%@\" \n",newString);
+
         }
     return 0;
 
