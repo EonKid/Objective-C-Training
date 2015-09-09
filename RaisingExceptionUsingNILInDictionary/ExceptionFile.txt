@@ -1,0 +1,12 @@
+2015-09-09 14:47:27.300 PracticeObjectiveC[453:18704] *** Terminating app due to uncaught exception 'NSInvalidArgumentException', reason: '*** setObjectForKey: object cannot be nil (key: apple)'
+*** First throw call stack:
+(
+	0   CoreFoundation                      0x00007fff84e6703c __exceptionPreprocess + 172
+	1   libobjc.A.dylib                     0x00007fff9340a76e objc_exception_throw + 43
+	2   CoreFoundation                      0x00007fff84d4dc66 -[__NSDictionaryM setObject:forKey:] + 1174
+	3   PracticeObjectiveC                  0x0000000100000d80 main + 96
+	4   libdyld.dylib                       0x00007fff8785f5c9 start + 1
+	5   ???                                 0x0000000000000001 0x0 + 1
+)
+libc++abi.dylib: terminating with uncaught exception of type NSException
+(lldb) 
