@@ -18,9 +18,13 @@ int main(int argc , const char *argv[]){
             NSLog(@"The file does not exist\n");
             
         }
-        
-        
-    }
+        if ([manager copyItemAtPath:fileManager toPath:file2 error:NULL]==NO) {
+            NSLog(@"Cannot copy the file!!");
+        }
+        if ([manager moveItemAtPath:fileManager toPath:file3 error:NULL]==NO) {
+            NSLog(@"Cannot move the file\n");
+        }
+   }
     
     return 0;
 
