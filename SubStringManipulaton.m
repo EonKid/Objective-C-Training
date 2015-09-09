@@ -31,6 +31,12 @@ int main(int argc , const char *argv[]){
         NSLog(@" The new tester string is %@\n",newString);
         [newString insertString:@"hmmm something inserted" atIndex:5];
         NSLog(@"newString after the insertion %@\n",newString);
+        
+         [newString appendString:@" I have added something at the end"];
+        NSLog(@"newString after the insertion \"%@\" \n",newString);
+        
+        [newString deleteCharactersInRange:NSMakeRange(4, 10)];
+        NSLog(@"newString after the insertion \"%@\" \n",newString);
         }
     return 0;
 
