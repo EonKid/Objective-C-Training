@@ -1,0 +1,6 @@
+Animal                 Color
+Dog                      All Types
+Mouse                 white and black
+Cow                   white and mixed
+Buffalo               Black
+   
