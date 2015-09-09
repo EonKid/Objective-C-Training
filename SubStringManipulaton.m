@@ -26,6 +26,11 @@ int main(int argc , const char *argv[]){
         NSRange range = [ stringObject rangeOfString:@"starts"];
         NSLog(@"The range of the string with location  is %ld and end index is %ld\n",range.location,range.length);
         
+        NSMutableString *newString;
+        newString = [NSMutableString stringWithString:stringObject];
+        NSLog(@" The new tester string is %@\n",newString);
+        [newString insertString:@"hmmm something inserted" atIndex:5];
+        NSLog(@"newString after the insertion %@\n",newString);
         }
     return 0;
 
