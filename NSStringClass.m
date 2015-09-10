@@ -32,7 +32,9 @@ int main(int argc , const char *argv[]){
      for(NSString *string in foo) {
         NSLog(@"%@",string);
        }
-        
+        NSString *theHang = foo[0];
+        NSLog(@"%@",theHang);
+
         }
     return 0;
 
