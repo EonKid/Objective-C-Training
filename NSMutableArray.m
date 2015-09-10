@@ -21,6 +21,15 @@ int main(int argc , const char *argv[]){
         for(int i=0; i<[mutableObject count]; i++) {
             NSLog(@"The food object is at %i is %@\n",i,[ mutableObject objectAtIndex:i]);
         }
+         NSMutableArray *lots =[[NSMutableArray alloc] init];
+        lots[0]=@"delta";
+        lots[1]=@"function";
+        lots[2]=@"used";
+        lots[3]=@"in";
+        lots[4]=@"Calculus";
+        for (NSString *string in lots) {
+            NSLog(@"%@",string);
+
         
     }
     
