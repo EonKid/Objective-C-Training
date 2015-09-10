@@ -23,7 +23,12 @@ int main(int argc , const char *argv[]){
                          forKey:@"grapes"];
         NSLog(@"Fruits you wanted to search where stored objects of Dictionary are \"%@\"  \n",[myDictionary objectForKey:@"apple"]);
         NSLog(@"Number of Keys in Dictionary %lu\n",[myDictionary count]);
-
+        
+        NSDictionary *myObject = @{
+                                   @"title" : @"The Completer Refernce",
+                                   @"author" : @"Herbert Schild"
+                                   };
+                NSLog(@"%@",myObject);
     }
     
     return 0;
