@@ -29,8 +29,9 @@ int main(int argc , const char *argv[]){
         lots[4]=@"Calculus";
         for (NSString *string in lots) {
             NSLog(@"%@",string);
-
-        
+            
+            [lots removeObjectAtIndex:4];
+        NSLog(@"%@",lots);
     }
     
     return 0;
