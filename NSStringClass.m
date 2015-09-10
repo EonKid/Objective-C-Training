@@ -25,7 +25,9 @@ int main(int argc , const char *argv[]){
         num = [NSNumber numberWithInteger:45345];
         NSLog(@"The number is %@\n",num);
         
-        NSArray *foo = [[NSArray alloc] initWithObjects:@"a",@"b",@"c",nil];
+       
+        //NSArray *foo = [[NSArray alloc] initWithObjects:@"D",@"R",@"D",@"O",nil];
+        NSArray *foo = @[ @"D",@"R",@"D",@"O" ];
         NSLog(@"%@",foo);
         NSLog(@"Count is %ld\n",[foo count]);
     
@@ -34,6 +36,7 @@ int main(int argc , const char *argv[]){
        }
         NSString *theHang = foo[0];
         NSLog(@"%@",theHang);
+
 
         }
     return 0;
