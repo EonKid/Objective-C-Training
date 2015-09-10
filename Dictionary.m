@@ -36,6 +36,9 @@ int main(int argc , const char *argv[]){
         NSMutableDictionary *myNewObject =[ NSMutableDictionary dictionaryWithDictionary:myObject];
         [myNewObject setObject:@"2010" forKey:@"year"];
         NSLog(@"%@",myNewObject);
+        
+        for (NSString *string in [myNewObject allKeys]) {
+            NSLog(@"key %@ and data %@\n",string,[myNewObject objectForKey:string]);
 
     }
     
