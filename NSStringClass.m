@@ -25,6 +25,14 @@ int main(int argc , const char *argv[]){
         num = [NSNumber numberWithInteger:45345];
         NSLog(@"The number is %@\n",num);
         
+        NSArray *foo = [[NSArray alloc] initWithObjects:@"a",@"b",@"c",nil];
+        NSLog(@"%@",foo);
+        NSLog(@"Count is %ld\n",[foo count]);
+    
+     for(NSString *string in foo) {
+        NSLog(@"%@",string);
+       }
+        
         }
     return 0;
 
