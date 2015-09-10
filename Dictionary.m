@@ -24,11 +24,19 @@ int main(int argc , const char *argv[]){
         NSLog(@"Fruits you wanted to search where stored objects of Dictionary are \"%@\"  \n",[myDictionary objectForKey:@"apple"]);
         NSLog(@"Number of Keys in Dictionary %lu\n",[myDictionary count]);
         
-        NSDictionary *myObject = @{
+         NSDictionary *myObject = @{
                                    @"title" : @"The Completer Refernce",
                                    @"author" : @"Herbert Schild"
                                    };
                 NSLog(@"%@",myObject);
+        
+    NSString *string = [myObject objectForKey:@"author"];
+    NSLog(@"Search value \n %@",string);
+    
+        NSMutableDictionary *myNewObject =[ NSMutableDictionary dictionaryWithDictionary:myObject];
+        [myNewObject setObject:@"2010" forKey:@"year"];
+        NSLog(@"%@",myNewObject);
+
     }
     
     return 0;
